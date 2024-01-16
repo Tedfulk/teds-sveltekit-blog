@@ -59,14 +59,15 @@
     }
   ],
   "frontMatter.framework.id": "other",
-  "frontMatter.content.publicFolder": "",
+  "frontMatter.content.publicFolder": "static",
   "frontMatter.content.pageFolders": [
     {
       "title": "posts",
       "path": "[[workspace]]/src/routes/(blog-article)"
     }
   ],
-  "frontMatter.taxonomy.tags": [
-    "Documentation"
-  ]
+  "frontMatter.content.autoUpdateDate": false,
+  "frontMatter.content.fmHighlight": true,
+  "frontMatter.framework.startCommand": "npm run dev",
+  "frontMatter.preview.host": "http://localhost:5173/"
 }

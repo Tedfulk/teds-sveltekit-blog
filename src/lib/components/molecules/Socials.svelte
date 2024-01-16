@@ -1,31 +1,32 @@
 <script>
-	import TelegramIcon from '$lib/icons/socials/telegram.svelte';
+	// import TelegramIcon from '$lib/icons/socials/telegram.svelte';
+	import YouTubeIcon from '$lib/icons/socials/youtube.svelte';
 	import GitHubIcon from '$lib/icons/socials/github.svelte';
 	import LinkedInIcon from '$lib/icons/socials/linkedin.svelte';
 	import EmailIcon from '$lib/icons/socials/email.svelte';
-	import RssIcon from '$lib/icons/rss.svelte';
+	// import RssIcon from '$lib/icons/rss.svelte';
 	import MastodonIcon from '$lib/icons/socials/mastodon.svelte';
 </script>
 
 <div class="socials">
 	<a
-		href="#"
+		href="https://www.youtube.com/channel/UCLmdMvAEQ3LHBmq8mvImKdg"
 		target="_blank"
 		rel="noopener noreferrer"
-		title="Say Hi on Telegram"
+		title="Say Hi on Youtube"
 	>
-		<TelegramIcon />
+		<YouTubeIcon />
 	</a>
-	<a
+	<!-- <a
 		href="#"
 		target="_blank"
 		rel="me noreferrer"
 		title="Say Hi on Mastodon"
 	>
 		<MastodonIcon />
-	</a>
+	</a> -->
 	<a
-		href="#"
+		href="https://github.com/Tedfulk"
 		target="_blank"
 		rel="noopener noreferrer"
 		title="See my GitHub profile"
@@ -33,7 +34,7 @@
 		<GitHubIcon />
 	</a>
 	<a
-		href="#"
+		href="https://www.linkedin.com/in/ted-fulk-4068491b1/"
 		target="_blank"
 		rel="noopener noreferrer"
 		title="Connect on LinkedIn"
@@ -41,7 +42,7 @@
 		<LinkedInIcon />
 	</a>
 	<a
-		href="#"
+		href="mailto:tedfulk1@gmail.com"
 		target="_blank"
 		rel="noopener noreferrer"
 		title="Send an email"

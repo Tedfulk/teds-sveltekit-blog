@@ -3,11 +3,11 @@
 @mixin base-theme {
 	@include define-color('primary', #6E29E7);
 	@include define-color('primary-shade', #b28cf2);	
-	@include define-color('primary-tint', #f9f6fe);
+	@include define-color('primary-tint', #d0c3e6);
 
 	@include define-color('secondary', #ff571a);
 	@include define-color('secondary-shade', #ffa280);
-	@include define-color('secondary-tint', #fff8f5);
+	@include define-color('secondary-tint', #dccac5);
 
 	@include define-color('yellow', #ffd400);
 
@@ -49,9 +49,13 @@
 	@include define-color('primary-shade', #4612A1);	
 	@include define-color('primary-tint', #231934);
 
-	@include define-color('secondary', #ff723f);
-	@include define-color('secondary-shade', #AB3307);
-	@include define-color('secondary-tint', #1b1918);
+	@include define-color('secondary', #fadf2c);
+	@include define-color('secondary-shade', #96881a);	
+	@include define-color('secondary-tint', #4c4c22);
+
+	// @include define-color('secondary', #ff723f);
+	// @include define-color('secondary-shade', #AB3307);
+	// @include define-color('secondary-tint', #1b1918);
 
 	@include define-color('yellow', #ffd400);
 

@@ -1,19 +1,23 @@
 <script lang="ts">
 	import Logo from '$lib/components/atoms/Logo.svelte';
+	import LogoIcon from '$lib/components/atoms/LogoIcon.svelte';
 	import ThemeToggle from '$lib/components/molecules/ThemeToggle.svelte';
-	import RssLink from '$lib/components/atoms/RssLink.svelte';
+	// import RssLink from '$lib/components/atoms/RssLink.svelte';
 
 	export let showBackground = false;
 </script>
 
 <header class:has-background={showBackground}>
 	<nav class="container">
-		<a class="logo" href="/" aria-label="Site logo">
+		<a class="logo-icon" href="/" aria-label="Ted Fulk Icon">
+			<LogoIcon />
+		</a>
+		<a class="logo" href="/" aria-label="Ted Fulk">
 			<Logo />
 		</a>
 		<div class="links">
 			<a href="/blog">Blog</a>
-			<RssLink />
+			<!-- <RssLink /> -->
 			<ThemeToggle />
 		</div>
 	</nav>
@@ -53,8 +57,11 @@
 		}
 
 		.logo {
-			height: 44px;
+			height: 50px;
 			flex: 1;
+			display: flex;
+			justify-content: center;
+			align-items: center;
 		}
 
 		a {
@@ -76,5 +83,8 @@
 				}
 			}
 		}
+	}
+	.logo-icon {
+		height: 50px;
 	}
 </style>

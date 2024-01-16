@@ -46,8 +46,11 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"@fontsource-variable/noto-sans-mono": "^5.0.18",
 		"@fontsource/inter": "^4.5.15",
+		"@fontsource/lato": "^5.0.18",
 		"@fontsource/merriweather": "^4.5.14",
+		"@fontsource/prompt": "^5.0.9",
 		"@fontsource/ubuntu-mono": "^4.5.11"
 	}
 }

@@ -1,29 +1,28 @@
 <script>
+
 	export let animated = true;
+
 </script>
+
 
 <div class="logo" class:animated>
 	<svg
-		id="logo-text"
-		width="723.84009"
-		height="116.720268"
-		viewBox="0 0 723.84009 116.720269"
-		fill="none"
-		xmlns="http://www.w3.org/2000/svg"
+	id="logo-text"
+	width="723.84009"
+	height="116.720268"
+	viewBox="0 0 723.84009 116.720269"
+	fill="none"
+	xmlns="http://www.w3.org/2000/svg"
 	>
-		<text
-			xml:space="preserve"
-			id="text"
-			transform="translate(-278.77228,-206.83728)"
-			><tspan x="275.57227" y="292.17088" id="tspan1319"
-				><tspan
-					style="font-size:106.667px;font-family:YoungSerif;"
-					id="tspan1317">Site Logo</tspan
-				></tspan
-			></text
+	<text xml:space="preserve" id="text" transform="translate(-278.77228,-206.83728)"
+	><tspan x="275.57227" y="292.17088" id="tspan1319"
+	><tspan style="font-size:106.667px;font-family:prompt;" id="tspan1317">Ted Fulk</tspan
+		></tspan
+		></text
 		>
 	</svg>
 </div>
+
 
 <style lang="scss">
 	@import '$lib/scss/breakpoints.scss';
@@ -33,8 +32,8 @@
 		height: 100%;
 
 		display: flex;
-		gap: 16px;
-		align-items: center;
+		align-items: flex-end;
+		justify-content: space-evenly;
 
 		@include for-phone-only {
 			gap: 8px;
@@ -43,7 +42,8 @@
 		#logo-text {
 			width: auto;
 			height: 100%;
-			max-height: 28px;
+			max-height: 48px;
+			margin-left: 23%;
 
 			#text {
 				transition: all 0.2s ease-in-out;
