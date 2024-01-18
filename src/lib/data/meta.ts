@@ -8,7 +8,11 @@ export const keywords = [
 	'Svelte',
 	'SvelteKit',
 	'Blog',
-	'Static Site'
+	'Static Site',
+	'Web Development',
+	'Ted',
+	'Tech',
+	'Chronicles',
 ];
 
 export const description =

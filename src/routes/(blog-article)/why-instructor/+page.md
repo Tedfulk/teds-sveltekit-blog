@@ -70,6 +70,9 @@ Imagine we receive new customer data that, on the surface, seems valid but conta
 ## Building an LLM-Powered Validator
 
 Moving beyond simple field validators, we now explore probabilistic validation in software 2.0, specifically through prompt engineering. We introduce an LLM-powered validator, `llm_validator`, which uses contextual understanding to assess the validity of the data.
+<CodeBlock lang="python">
+
+
 
 ```python
 from instructor import llm_validator
@@ -84,7 +87,10 @@ try:
     CustomerData(email="inappropriate@example.com")
 except ValidationError as e:
     print(e)
+
 ```
+
+</CodeBlock>
 
 <p>
 <br>
@@ -93,6 +99,9 @@ This validation process produces an error message for inappropriate or invalid c
 <br>
 </p>
 
+<CodeBlock lang="python">
+
+
 ```bash
 1 validation error for CustomerData
 email
@@ -100,6 +109,8 @@ email
   [type=assertion_error, input_value='inappropriate@example.com', input_type=str]
 
 ```
+
+</CodeBlock>
 
 <p>
 <br>

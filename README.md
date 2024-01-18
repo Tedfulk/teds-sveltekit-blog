@@ -1,6 +1,6 @@
-# SvelteKit Static Blog Template
+# SvelteKit Blog
 
-A lightweight and customizable template for blogs and portfolio websites, built with SvelteKit.
+A lightweight and customizable for blogs and portfolio websites, built with SvelteKit.
 
 ## Building & Running Locally
 
