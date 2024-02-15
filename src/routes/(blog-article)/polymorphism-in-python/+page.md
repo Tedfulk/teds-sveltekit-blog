@@ -11,6 +11,12 @@ tags:
   - Best Practices
 ---
 
+<script>
+  import Callout from "$lib/components/molecules/Callout.svelte";
+  import CodeBlock from "$lib/components/molecules/CodeBlock.svelte";
+  import Image from "$lib/components/atoms/Image.svelte";
+</script>
+
 # Polymorphism in Python
 
 Polymorphism, a core concept in object-oriented programming, allows different classes to use the same method name but behave differently. In Python, this is effortlessly achieved due to its dynamic typing.
