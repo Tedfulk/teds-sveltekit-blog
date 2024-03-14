@@ -1,7 +1,7 @@
 ---
 slug: cli-tool-typer
 title: Writing CLI Tools With Typer
-date: 2024-01-17T00:00:00.000Z
+date: 2024-03-14T00:00:00.000Z
 excerpt: Discover the key features of Typer for creating command line interfaces in Python.
 coverImage: /images/posts/Typer-Key-Features.JPEG
 tags:
