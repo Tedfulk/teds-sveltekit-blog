@@ -23,24 +23,30 @@ Typer is an open-source library that allows developers to create command line in
 ## Key Features
 
 <details>
+
 <summary><b> Type Hinting </b></summary>
 
 Typer supports type annotations for function parameters, making your code easier to read and maintain.
+
 </details>
 
 <details>
+
 <summary><b> Command Auto-Completion </b></summary>
 
 Typer provides command auto-completion out of the box, reducing the time spent typing commands and improving user experience.
 </details>
 
 <details>
+
 <summary><b> Validation & Error Handling </b></summary>
 
 With Pydantic integration, Typer allows robust validation and error handling for input data, ensuring your CLI tool functions smoothly.
+
 </details>
 
 <details>
+
 <summary><b> Rich Command Help & Descriptions </b></summary>
 
 Typer offers rich command help documentation that can be easily extended with additional context or examples.
@@ -67,10 +73,13 @@ if __name__ == '__main__':
 ```
 
 </CodeBlock>
+
 This example demonstrates how to create a simple CLI tool that greets a Marvel hero and mentions their superpower. By using type annotations and the typer.Argument and typer.Option decorators, the CLI tool automatically provides a rich help message that includes information about each parameter, making it clear and user-friendly.
+
 </details>
 
 <details>
+
 <summary><b> Callbacks & Event Handling </b></summary>
 
 Typer allows you to define callback functions that are executed before or after a command is run, giving you granular control over the command execution process. Here's an example of how to use event handlers in Typer:
@@ -118,6 +127,7 @@ The function `calculate_futures` represents this calculation, returning the numb
 </details>
 
 <details>
+
 <summary><b> Optional & Required Arguments </b></summary>
 
 You can declare optional and required arguments for your CLI tool, making it more user-friendly and flexible.
@@ -151,10 +161,10 @@ if __name__ == '__main__':
 
 This CLI tool helps users locate Infinity Stones in the Marvel Universe. The reality stone is a required argument, indicating whether it's been found, while the space and time stones are optional.
 
-
 </details>
 
 <details>
+
 <summary><b> Multiple Subcommands </b></summary>
 
 With Typer, you can create multiple subcommands within a single application, allowing for granular control over command functionality.
@@ -211,6 +221,7 @@ This setup lets us organize our commands in a neat way, making it super easy to 
 </details>
 
 <details>
+
 <summary><b> Environment Variables </b></summary>
 
 Typer allows you to use environment variables, you can access them using the `os.environ` dictionary provided by Python's standard library:
@@ -239,6 +250,7 @@ if __name__ == '__main__':
 </CodeBlock>
 
 In this example the CLI tool activates Captain America's shield to a specified power level, demonstrating the use of environment variables. By storing the shield level in an environment variable, the tool illustrates how to use os.environ for managing application state outside the Python process. This can be especially useful for passing information between different parts of an application or to other programs.
+
 </details>
 
 ## Conclusion
