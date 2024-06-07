@@ -1,5 +1,5 @@
 ---
-title: Exploring the Ollama Library: Top Models and Their Applications
+title: Exploring the Ollama Library Top Models and Their Applications
 slug: exploring-ollama-library
 coverImage: /images/posts/ollama-exploration.jpg
 date: 2024-04-28T00:00:00.000Z
