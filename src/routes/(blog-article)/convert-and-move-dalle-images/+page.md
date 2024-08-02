@@ -35,9 +35,9 @@ The `convert_and_move_dalle_images` function performs the following tasks:
 
 Here's the complete function:
 
-<CodeBlock lang="fish">
+<CodeBlock lang="bash">
 
-```fish
+```bash
 function convert_and_move_dalle_images
     # Parse the arguments
     set delete_flag 0
