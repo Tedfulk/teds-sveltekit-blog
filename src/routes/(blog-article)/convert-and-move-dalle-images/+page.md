@@ -33,7 +33,7 @@ The `convert_and_move_dalle_images` function performs the following tasks:
 5. **Process files**: Converts `.webp` files to `.jpg` format, renames them, and logs the processed files.
 6. **Optional deletion**: Deletes the original `.webp` files if the delete flag is set.
 
-Here's the complete function:
+Here's the complete function (It says bash, but it's actually fish syntax. Only way I could get the color to work.):
 
 <CodeBlock lang="bash">
 
